@@ -1,15 +1,20 @@
-<template>
+<!-- <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+</template> -->
+<template>
+  <REGISTER/>
 </template>
 
 <script>
-import HelloWorld from './components/TodoList.vue'
+// import HelloWorld from './components/TodoList.vue'
+import REGISTER from './views/auth/UserRegister.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    REGISTER
   }
 }
 </script>
